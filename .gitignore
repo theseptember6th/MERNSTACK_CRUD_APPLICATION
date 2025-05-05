@@ -1,0 +1,50 @@
+# Node modules for both backend and frontend
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+client/build/
+server/dist/
+
+# Cache
+.cache/
+client/.next/
+client/.cache/
+server/.next/
+server/.cache/
+
+# Coverage
+coverage/
+
+# Optional: ignore database dumps
+*.dump
+*.sql
+
+# VSCode settings (optional)
+.vscode/
+
+# Other IDE settings (optional)
+.idea/
+*.sublime-workspace
+*.sublime-project
